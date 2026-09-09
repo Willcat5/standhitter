@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "standhitter",
+	"version": "${version}",
+	"name": "standhitter",
+	"description": "Automatically simulates a left click every x seconds while the player looks at an armor stand that is wearing armor.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/standhitter/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"willits.standhitter.client.StandhitterClient"
+		],
+		"modmenu": [
+			"willits.standhitter.client.StandhitterModMenu"
+		]
+	},
+	"suggests": {
+		"cloth-config": "*",
+		"modmenu": "*"
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
