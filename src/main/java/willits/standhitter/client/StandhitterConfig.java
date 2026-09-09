@@ -16,6 +16,9 @@ public class StandhitterConfig implements ConfigData {
 	public boolean hitInteractionEntities = false;
 
 	@ConfigEntry.Gui.Tooltip
+	public boolean clickRegardlessOfTarget = false;
+
+	@ConfigEntry.Gui.Tooltip
 	public boolean autoDisableOnLowHunger = true;
 
 	@ConfigEntry.Gui.Tooltip

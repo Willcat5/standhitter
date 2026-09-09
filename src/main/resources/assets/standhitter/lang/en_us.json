@@ -11,6 +11,8 @@
 	"text.autoconfig.standhitter.option.hitArmorStands.@Tooltip": "Attack armor stands that are wearing armor while you look at them.",
 	"text.autoconfig.standhitter.option.hitInteractionEntities": "Hit interaction entities",
 	"text.autoconfig.standhitter.option.hitInteractionEntities.@Tooltip": "Also attack interaction entities you look at (invisible click-detection entities).",
+	"text.autoconfig.standhitter.option.clickRegardlessOfTarget": "Click regardless of target",
+	"text.autoconfig.standhitter.option.clickRegardlessOfTarget.@Tooltip": "Ignores what you are looking at and clicks on the interval no matter what, even at air. Overrides the armor stand and interaction entity options.",
 	"text.autoconfig.standhitter.option.autoDisableOnLowHunger": "Disable at low hunger",
 	"text.autoconfig.standhitter.option.autoDisableOnLowHunger.@Tooltip": "When your hunger drops to 3 shanks or less, Standhitter automatically turns itself off.",
 	"text.autoconfig.standhitter.option.keepActiveWhenUnfocused": "Keep active while tabbed out",

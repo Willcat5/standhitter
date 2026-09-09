@@ -24,6 +24,7 @@ While on, a small green indicator shows bottom-left. If it switches off automati
 - **Enabled**: master switch.
 - **Hit armor stands**: hit armor stands that wear armor.
 - **Hit interaction entities**: also hit invisible interaction entities you aim at.
+- **Click regardless of target**: click on the interval no matter what you look at, even air. Overrides the entity options above.
 - **Disable at low hunger**: auto-off at 3 shanks of hunger (orange HUD notice).
 - **Keep active while tabbed out**: keeps clicking when the window is unfocused.
 - **Scale intervals with server tick rate**: widen delays when the server runs below 20 TPS.

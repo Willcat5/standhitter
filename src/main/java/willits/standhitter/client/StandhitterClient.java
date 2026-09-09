@@ -106,6 +106,13 @@ public class StandhitterClient implements ClientModInitializer {
 			return;
 		}
 		long intervalTicks = scaledIntervalTicks(mc, config);
+		if (config.clickRegardlessOfTarget) {
+			if (now >= this.nextAttackTick) {
+				KeyMapping.click(KeyBindingHelper.getBoundKeyOf(mc.options.keyAttack));
+				this.nextAttackTick = now + intervalTicks;
+			}
+			return;
+		}
 		Entity target = findAimedTarget(mc, config);
 		if (target == null) {
 			this.nextAttackTick = now + intervalTicks;
